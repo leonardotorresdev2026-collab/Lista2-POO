@@ -36,8 +36,8 @@ public class Funcionario {
 
     public void exibirDados() {
         System.out.println("Nome: " + nome);
-        System.out.println("Matrícula: " + matricula);
-        System.out.println("Salário: " + salario);
+        System.out.println("Matricula: " + matricula);
+        System.out.println("Salario: " + salario);
     }
 
     public int calcularSalario() {
