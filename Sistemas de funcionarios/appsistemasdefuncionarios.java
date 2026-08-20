@@ -2,9 +2,9 @@ public class appsistemasdefuncionarios {
 
     public static void main(String[] args) {
 
-        Gerente gerente = new Gerente("Carlos", 101, 5000, 1000);
+        Gerente gerente = new Gerente("Bruninho Proença", 110, 6000, 1000);
 
-        Vendedor vendedor = new Vendedor("João", 102, 2000, 500);
+        Vendedor vendedor = new Vendedor("berso", 230, 300000, 2000);
 
         System.out.println("Salário do gerente: " + gerente.calcularSalario());
 
