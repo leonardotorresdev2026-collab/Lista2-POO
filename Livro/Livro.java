@@ -35,7 +35,7 @@ public class Livro {
         }
 
         public void exibirInfo() {
-            System.out.println("Título: " + titulo);
+            System.out.println("Titulo: " + titulo);
             System.out.println("Autor: " + autor);
             System.out.println("Quantidade: " + quantidadeDisponivel);
         }
