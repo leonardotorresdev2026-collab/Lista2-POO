@@ -4,7 +4,7 @@ public class appsistemadeveiculos {
 
         Carro carro = new Carro("Chevrolet ", Camaro", 2003, 2);
 
-        Moto moto = new Moto("BYD", "Seal", 2022, 500);
+        Moto moto = new Moto("Kawasaki", "Ninja ZX", 2026,399);
 
         carro.exibirInfo();
 
