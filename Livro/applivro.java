@@ -1,25 +1,28 @@
-public class applivro {
+public class Applivro {
 
     public static void main(String[] args) {
 
-        Livrofisico livro1 = new Livrofisico(
+        Livrofisico livrinho = new Livrofisico(
                 "Os minions 2",
                 "Gru",
                 2,
                 "A19"
         );
 
-        Livrodigital livro2 = new Livrodigital(
+        Livrodigital livrinho2pontozero = new Livrodigital(
                 "Bananas de pijama",
                 "Sr banana",
                 1,
                 89
         );
+        System.out.println();
 
-        livro1.exibirInfo();
+        livrinho.exibirInfo();
 
         System.out.println();
 
-        livro2.exibirInfo();
+        livrinho2pontozero.exibirInfo();
+
+        livrinho.emprestar();
     }
 }
