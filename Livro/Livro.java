@@ -1,4 +1,4 @@
-public class Livro {
+  public class Livro {
 
         private String titulo;
         private String autor;
@@ -40,11 +40,12 @@ public class Livro {
             System.out.println("Quantidade: " + quantidadeDisponivel);
         }
 
-        public void emprestar() {
-            quantidadeDisponivel--;
+            public void emprestar() {
+                if (quantidadeDisponivel > 0) {
+                    quantidadeDisponivel--;
+                    System.out.println("Livro emprestado com sucesso!");
+                } else {
+                    System.out.println("Livro indisponível.");
+                }
+            }
         }
-    }
-
-
-
-
